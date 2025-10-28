@@ -1,8 +1,7 @@
-
 import React, { useState, useCallback } from 'react';
 import ImageUploader from './components/ImageUploader';
 import PromptInput from './components/PromptInput';
-import ResultDisplay from './components/ResultDisplay';
+import ResultDisplay from './components/icons/ResultDisplay';
 import { SparklesIcon } from './components/icons/SparklesIcon';
 import { editImageWithPrompt } from './services/geminiService';
 import { fileToBase64 } from './utils/fileUtils';
